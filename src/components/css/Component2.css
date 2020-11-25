@@ -1,0 +1,113 @@
+.component2_heading
+{
+    
+   color:chocolate;
+   margin-bottom: 1em;
+}
+
+.style_dates_div
+{
+    margin-bottom: 1.5em;
+}
+.date_heading
+{
+    color:cadetblue
+}
+.view_icon
+{
+    color:darkblue;
+    cursor: pointer;
+    margin-left: 1em;
+    margin-right: 0.5em;
+    font-size: 15px;
+}
+
+.edit_icon
+{
+    color:orange;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+hr{
+    width: 50%;
+    margin-left:-10px ;
+    margin-bottom: 0.7rem!important;
+}
+
+.no_notes{
+    color:lightgray
+}
+
+@media only screen and (max-width:500px){
+
+
+    .react-calendar__navigation button{
+        min-width: 25px!important;
+    }
+
+    .react-calendar__navigation__label__labelText {
+            font-size: 9px!important;
+    }
+
+    .react-calendar__month-view__weekdays
+    {
+        font-size: 7px;
+    }
+
+    .react-calendar__month-view__days{
+        font-size: 9px;
+    }
+    .component2_heading
+    {
+        font-size: 15px;
+    }
+    .date_heading
+    {
+    font-size: 12px;
+    }
+
+    .list_items{
+        margin-left:-12% ;
+    }
+
+    li{
+        font-size: 10px;
+    }
+
+    .view_icon
+{
+    color:darkblue;
+    cursor: pointer;
+    margin-left: 0em;
+    margin-right: 0em;
+    font-size: 10px;
+}
+
+.edit_icon
+{
+    color:orange;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+hr{
+    width:100%
+}
+
+.error_id{
+    font-size: 8px!important;
+        padding: 0.35rem 0.5rem!important;
+}
+
+.alert_id{
+    font-size: 8px!important;
+    padding: 0.35rem 0.5rem!important;
+}
+.delete_id{
+    font-size: 8px!important;
+        padding: 0.35rem 0.5rem!important;
+}
+
+}

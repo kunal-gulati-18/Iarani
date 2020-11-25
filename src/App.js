@@ -1,19 +1,24 @@
 import './App.css';
-
+import NavbarComponent from './components/Navbar';
+import Component1 from './components/Component1'
+import Component2 from './components/Component2'
+import {Container,Row,Col} from 'react-bootstrap'
+import './bootstrap.min.css'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello World
-        </a>
-      </header>
-    </div>
+    <>
+      <NavbarComponent/>
+      <Container>
+        <Row>
+          <Col md={6} lg={6} sm={6} xs={6}>
+            <Component1/>
+          </Col>
+          <Col md={6} lg={6} sm={6} xs={6}>
+          <Component2/>
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 }
 
